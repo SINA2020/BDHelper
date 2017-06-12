@@ -2656,8 +2656,8 @@ if matches[1] == '/beyond' then
 	keyboard = {} 
 	keyboard.inline_keyboard = {
 		{
-			{text = "> SoLiD", callback_data="/solid:"..matches[2]}, 
-			{text = "> ToOfan", callback_data="/toofan:"..matches[2]}
+			{text = "> SHAHIN", callback_data="/solid:"..matches[2]}, 
+			{text = "> MM", callback_data="/toofan:"..matches[2]}
 		},
 		{
 			{text = '> Our GitHub ', url = 'https://www.github.com/BeyondTeam'}
@@ -2670,8 +2670,8 @@ if matches[1] == '/beyond' then
 	keyboard = {} 
 	keyboard.inline_keyboard = {
 		{
-			{text = "> سعید", callback_data="/solid:"..matches[2]}, 
-			{text = "> طوفان", callback_data="/toofan:"..matches[2]}
+			{text = "> شاهین", callback_data="/solid:"..matches[2]}, 
+			{text = "> ام", callback_data="/toofan:"..matches[2]}
 		},
 		{
 			{text = '> گیت هاب تیم ', url = 'https://www.github.com/BeyondTeam'}
@@ -2685,17 +2685,17 @@ if matches[1] == '/beyond' then
 end
 
 if matches[1] == '/solid' then
-local text = [[*》SoLiD Information《*
-_》Age :_ *26*
-_》Name :_ *Saeid Rostami*
-_》City :_ *Shahriar - Tehran*
+local text = [[*》SHAHIN Information《*
+_》Age :_ *27*
+_》Name :_ *SHAHIN NICE*
+_》City :_ *TABRIZ - MARAGHEH*
 *-------------------------*
-*》GitHub :《*
-》[SoLiD021](Github.Com/SoLiD021)
+*》 :《*
+》[shahin20nice]()
 *-------------------------*
 *》Bridges :《*
-_》Pv : _[@SoLiD](Telegram.Me/SoLiD)
-_》PvResan : _[@SoLiD Pv](Telegram.Me/SoLiD021Pv_Bot)
+_》Pv : _[@shahin20nice](Telegram.Me/shahin20nice)
+_》PvResan : _[@shahin20nice](Telegram.Me/shahin20nice)
 *-------------------------*
 *》Expertise :《*
 _》_*Lua*, *Cli* `and` *Api* _Bots_
@@ -2718,17 +2718,17 @@ _》_*Lua*, *Cli* `and` *Api* _Bots_
     edit_inline(msg.message_id, text, keyboard)
 end
 if matches[1] == '/toofan' then
-local text = [[*》ToOfan Information《*
-_》Age :_ *35*
-_》Name :_ *Ali AzizAbadi*
-_》City :_ *Bam - Kerman*
+local text = [[*》MM Information《*
+_》Age :_ *27*
+_》Name :_ *MM NICE*
+_》City :_ *TABRIZ - MARAGHEH*
 *-------------------------*
-*》GitHub :《*
-》[To0fan](GitHub.Com/To0fan)
+*》 :《*
+》[MM20Nice]()
 *-------------------------*
 *》Bridges :《*
-_》Pv :_ [@ToOfan](Telegram.Me/ToOfan)
-_》PvResan :_ [@ToOfanRobot](Telegram.Me/ToOfanRobot)
+_》Pv :_ [@MM20Nice](Telegram.Me/MM20Nice)
+_》PvResan :_ [@MM20Nice](Telegram.Me/MM20Nice)
 *-------------------------*
 *》Expertise :《*
 *》C#, Lua, VB.Net, JAVA*
