@@ -167,7 +167,7 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = ''..BeyondTeam..'/data/moderation.json'},
     info_text = [[*》Nice Helper Bot V1.5*
-`》An helper bot of` *Nice* `based on` *BDMessenger*
+`》An helper bot of` *Nice* `based on` *NTMessenger*
 
 》[Nice Helper](https://telegram.me/Nice20Team)
 
